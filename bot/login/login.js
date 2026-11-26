@@ -9,7 +9,7 @@ const path = defaultRequire("path");
 const readline = defaultRequire("readline");
 const fs = defaultRequire("fs-extra");
 const { TOTP } = defaultRequire("totp-generator");
-const login = defaultRequire("neokex-fca");
+const login = defaultRequire("fca-nx");
 const qr = new (defaultRequire("qrcode-reader"));
 const Canvas = defaultRequire("canvas");
 
